@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My Portfolio</title>
+</head>
+<body>
+
+                                <!-- Header -->
+    <header class="1-header">
+        <nav class="nav bd-grid">
+            <div><a href="#" class="nav-logo">MyPortfolio</a></div>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>    
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle" hidden>
+                <i class="bx bx-menu-alt-right"></i>
+            </div>
+        </nav>
+    </header>
+    
+                                <!-- Main Section -->
+    <main class="1-main">
+                                <!-- Home Section -->
+        <section class="home bd-grid">
+            <div class="home-data">
+                <h1 class="home-title">Hi,<br>I'm <span class="home-title-color">Tim</span><br>Web Developer</h1>
+                <a href="#" class="contact-button" id="contactBtn"">Contact</a>
+            </div>
+
+            <div class="home-social">
+                <a href="#" class="home-social-icon"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="#" class="home-social-icon"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="home-social-icon"><i class="bx bxl-github"></i></a>
+            </div>
+
+            <!-- something here for later for the background part of the home section -->
+
+            <img src="Assets\19477741_1575654002453178_2161798719720425891_o.jpg" x="50" y="50">
+        </section>  
+        
+                                <!-- About Section -->
+        <section class="about section">
+            <h2 class="section-title">About</h2>
+
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="Assets\19477741_1575654002453178_2161798719720425891_o.jpg" alt="">
+                </div>
+
+                <div class="about-info">
+                    <h2 class="about-subtitle">I'm Tim</h2>
+                    <p class="about-text">Lorem ipsum dolor, sit amet consectetur ad
+                        ipisicing elit. Cupiditate nihil vitae dicta aut
+                        fugit doloribus, perferendis
+                         quo expedita minus quisquam
+                          maxime earum magnam
+                           voluptatem molestias accusamus officia deserunt laudantium ea?</p>
+                </div>
+            </div>
+        </section>
+
+                                <!-- Skills Section -->
+        <section class="skills section">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills-container bd-grid">
+                <div class="skill-info">
+                    <h2 class="skills-subtitle">Professional skills</h2>
+                    <p class="skills-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequatur excepturi repellat possimus, iste id ipsam, blanditiis 
+                        nostrum tempore, eius molestias assumenda! Laboriosam doloremque, recusandae modi 
+                        temporibus quasi odio nulla!</p>
+                    <div class="skill-names">
+                        <i class='bx bxl-html5'></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-names">
+                        <i class='bx bxl-css3'></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-names">
+                        <i class='bx bxl-tailwind-css'></i>
+                        <span>Tailwind</span>
+                    </div>
+                    <div class="skill-names">
+                        <i class='bx bxl-javascript'></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-names">
+                        <i class='bx bxl-react'></i>
+                        <span>React</span>
+                    </div>
+                    <div class="dev-image">
+                        <img src="Assets\web-developer-skills__Thumbnail.webp" class="skills-image">
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+                                <!-- Projects Section -->
+        <section class="work section">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="work-container bd-grid">
+                <a href="#" class="work-img">
+                    <img src="" alt="">
+                </a>
+                <a href="#" class="work-img">
+                    <img src="" alt="">
+                </a>
+                <a href="#" class="work-img">
+                    <img src="" alt="">
+                </a>
+                <a href="#" class="work-img">
+                    <img src="" alt="">
+                </a>
+            </div>
+        </section>
+
+        <!----------------------- Contact--------------------------->
+        <section class="contact section">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact-container bd-grid">
+                <form action="" class="contact-content">
+                    <input type="text" class="contact-input" placeholder="Name">
+                    <input type="text" class="contact-input" placeholder="Email">
+                    <textarea name="" id="" rows="10" placeholder="Type here"></textarea>
+                    <div class="submit-btn">
+                        <input type="button" value="submit" class="submit-button">
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    </main>    
+    
+    <!-------- FOOTER -->
+    <footer class="footer">
+        <p class="footer-title">Tim Dev</p>
+        <div class="footer-social">
+            <a href="#" class="footer-icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer-icon"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
